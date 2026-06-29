@@ -1,0 +1,90 @@
+============================================================
+  Sifre Guvenligi Analiz Araci  —  Nida Subasi | 2026
+  Kullanim Kilavuzu
+============================================================
+
+Dosya: sifre_analiz.py
+Python 3.6 veya uzeri yeterlidir.
+Hic harici kutuphane kurmaya gerek yoktur.
+
+------------------------------------------------------------
+  WINDOWS'DA CALISTIRMA
+------------------------------------------------------------
+
+YONTEM 1 — Cift Tiklama (En Kolay):
+  sifre_analiz.py dosyasina cift tiklayin.
+  Pencere otomatik acilacaktir.
+
+  NOT: Acilmiyorsa Python yuklu olmayabilir.
+  Asagidaki linkten indirin:
+    https://www.python.org/downloads/
+  Kurulum sirasinda "Add Python to PATH" kutusunu
+  kesinlikle isaretleyin, sonra tekrar cift tiklayin.
+
+YONTEM 2 — Komut Istemi ile:
+  1. Baslat > "cmd" yazin > Enter
+  2. Dosyanin oldugu klasore gidin:
+       cd C:\Users\KULLANICI\Desktop\SifreAnaliz
+  3. Calistirin:
+       python sifre_analiz.py
+  
+  "python" calismiyorsa "py" deneyin:
+       py sifre_analiz.py
+
+------------------------------------------------------------
+  MACOS'DA CALISTIRMA
+------------------------------------------------------------
+
+YONTEM 1 — Terminal ile (Onerilen):
+  1. Spotlight acin: Cmd + Space > "Terminal" > Enter
+  2. Dosyanin oldugu klasore gidin:
+       cd ~/Desktop/SifreAnaliz
+  3. Calistirin:
+       python3 sifre_analiz.py
+
+YONTEM 2 — Cift Tiklama:
+  Finder'da dosyaya sag tiklayin
+  > "Birlikte Ac" > "Python Launcher"
+
+  NOT: Python Launcher yuklu degilse Terminal
+  yontemini kullanin.
+
+  NOT: macOS'ta tkinter bazen ayri yuklenebilir.
+  Eger hata aliyorsaniz terminalde su komutu calistirin:
+       brew install python-tk
+  (Homebrew gerektirir: brew.sh adresinden indirin)
+
+------------------------------------------------------------
+  LINUX'DA CALISTIRMA
+------------------------------------------------------------
+
+Terminal acin:
+  python3 sifre_analiz.py
+
+Tkinter yuklu degilse:
+  sudo apt install python3-tk    (Ubuntu / Debian)
+  sudo dnf install python3-tkinter  (Fedora)
+
+------------------------------------------------------------
+  PROGRAM OZELLIKLERI
+------------------------------------------------------------
+
+  Analiz Sekmesi   : Yazarken anlik sifre gucunu olcer
+  Uretici Sekmesi  : Guvenli rastgele sifre uretir
+  Hash Sekmesi     : MD5, SHA1, SHA256, SHA512 hesaplar
+  Gecmis Sekmesi   : Yapilan analizleri listeler
+
+Gecmis kayitlari program ile ayni klasorde
+"gecmis.json" dosyasina kaydedilir.
+
+------------------------------------------------------------
+  ONEMLI NOT
+------------------------------------------------------------
+
+Bu arac kisisel ogrenme amacli gelistirilmistir.
+Girdigi sifreler internete veya baska bir yere
+gonderilmez; tamamen yerel calisir.
+
+============================================================
+  Hazirlayan : Nida Subasi  |  2026
+============================================================
